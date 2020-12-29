@@ -1,3 +1,5 @@
+import 'package:cadastro/models/user.dart';
+
 const DUMMY_USERS = {
   '1': const User(
     id: '1',
