@@ -1,6 +1,5 @@
 import 'package:cadastro/data/dummy_user.dart';
 import 'package:flutter/material.dart';
-import 'package:crud_flutter/data/dummy_user.dart';
 
 class UserList extends StatelessWidget {
   @override
