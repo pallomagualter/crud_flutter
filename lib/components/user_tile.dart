@@ -13,6 +13,7 @@ class UserTile extends StatelessWidget {
         : CircleAvatar(backgroundImage: NetworkImage(user.avatarUrl));
     return ListTile(
       leading: avatar,
+      title: Text(user.name),
     );
   }
 }
