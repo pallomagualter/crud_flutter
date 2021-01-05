@@ -15,6 +15,7 @@ class UserTile extends StatelessWidget {
       leading: avatar,
       title: Text(user.name),
       subtitle: Text(user.email),
+      trailing:,
     );
   }
 }
