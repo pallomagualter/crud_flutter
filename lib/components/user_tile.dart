@@ -15,7 +15,16 @@ class UserTile extends StatelessWidget {
       leading: avatar,
       title: Text(user.name),
       subtitle: Text(user.email),
-      trailing:,
+      trailing: Row(children: <Widget>[
+        IconButton(
+          icon: Icon(Icons.edit),
+          onPressed: () {},
+        ),
+        IconButton(
+          icon: Icon(Icons.edit),
+          onPressed: () {},
+        ),
+      ]),
     );
   }
 }
